@@ -1,0 +1,98 @@
+
+@media (max-width:999px){
+   .banner{
+      margin-top: 10vh;
+   }
+
+   .historia_maca > p{
+      margin-left: 25px;
+      margin-right: 25px;
+   }
+
+   .tipos > img{
+      width: 350px;
+   }
+}
+
+.banner{
+   width: 100%;
+   margin-bottom: -10px;
+}
+
+.body{
+   background-image: url(img/fundo2.png);
+   background-size: 100%;
+}
+
+.origem_esplanada{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   background-image: url();
+   background-size: 100%;
+   background-repeat: no-repeat;
+}
+
+.origem_esplanada h1{
+   display: flex;
+   margin: 45px;
+   color: rgb(8, 8, 8);
+   font-size:xx-large;
+   text-align: center;
+ }
+ 
+.origem_esplanada p{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+   max-width: 780px;
+   font-size: 22px;
+   font-family: tahoma;
+}
+
+.informacoes{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+.informacoes > .tipos{
+   width: 600px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   flex-direction: column;
+   margin: 2vw;
+}
+
+.informacoes h1{
+   color: rgb(206, 0, 0);
+   display: flex;
+   margin: 45px;
+   font-weight:900;
+   font-size:xx-large;
+   text-align: center;
+}
+
+.tipos_text{
+   margin-bottom: 40px;
+}
+
+.tipos > img{
+   max-width: 600px;
+   border-radius: 20px;
+}
+
+.fontes{
+   font-size: 10px;
+   text-align: left;
+   color:rgba(0, 0, 0, 0.638);
+   margin-bottom: 20px;
+}
+
